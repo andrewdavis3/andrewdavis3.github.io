@@ -6,4 +6,4 @@ where all the installed tools are working in symbosis. Sometimes it's nice to ha
 operating system already fire up to test out new tool. This is where multipass may come in handy. 
 For my mac, I already had Virtualbox installed,I then installed multipass via brew `brew cask install multipass`. 
 I thenhad to run `sudo multipass set local.driver=virtualbox` to get multipass to start up. 
-Still looking into an easy way to expand CPU and RAM.
+If you want to expand CPU and RAM run `multipass launch --name primary --cpus 4 --mem 10G`.
