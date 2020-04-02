@@ -260,12 +260,12 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "post_02APR2020.txt"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
