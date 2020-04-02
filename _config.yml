@@ -260,7 +260,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "post_02APR2020.txt"
       type: posts
     values:
       layout: single
